@@ -55,7 +55,7 @@ function determineLength(){
 
 // function determines the lowercase
 
-function determinelowerCaseCharacter() {
+function determineLowerCaseCharacter() {
 
   lowerCaseCharacterCheck = prompt ("Do you wish to have Lowercase Letters in your password?\n(Yes or No)");
   lowerCaseCharacterCheck = lowerCaseCharacterCheck.toLowerCase();
@@ -63,7 +63,7 @@ function determinelowerCaseCharacter() {
 
   if (lowerCaseCharacterCheck === null || lowerCaseCharacterCheck === "")  {
     alert("Answer in Yes or No");
-    determinelowerCaseCharacter();
+    determineLowerCaseCharacter();
 
   }else if (lowerCaseCharacterCheck === "no" || lowerCaseCharacterCheck === "n"){
       lowerCaseCharacterCheck = false;
@@ -75,7 +75,7 @@ function determinelowerCaseCharacter() {
 
   }else  {
     alert("Answer Yes or NO");
-    determinelowerCaseCharacter();
+    determineLowerCaseCharacter();
   }
   return lowerCaseCharacterCheck;
 }
@@ -178,7 +178,7 @@ function generatePassword() {
   determineLength();
   console.log(passwordLength);
   
-  determinelowerCaseCharacter();
+  determineLowerCaseCharacter();
   console.log(lowerCaseCharacterCheck);
 
   determineUpperCaseCharacter();

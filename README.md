@@ -3,12 +3,15 @@
 
 ## Description
 The Project is made for employees who can use to generate a random password based on criteria they've selected. 
-At the beginnning 3 questions will be asked and after that it will generate the password based on your answers. The password must be no longer than 128 characters and not less than 8 characters.
+At the beginnning 4 questions will be asked and after that it will generate the password based on your answers. The password must be no longer than 128 characters and not less than 8 characters.
 
 
-[webpage](./Assets/Images/Home-page.png)
+[home webpage img](/Assets/Images/Home-page.png).
 
 ## Deployed Webpage Url
+
+[Deployed Webpage Url](doc:https://devarsh2395.github.io/JavaScript_password_generator/)
+
 
 
 
